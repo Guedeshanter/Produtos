@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oculto</title>
+    <link type="text/css" rel="stylesheet"  href="estilo.css">
+    <style>
+         body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(45deg,cyan,yellow);
+        }
+        div{
+            background-color: rgba(0, 0, 0,0.9);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            padding: 80px;
+            border-radius: 15px;
+            color: white;
+        }
+        input{
+            padding: 15px;
+            border: none;
+            outline: none;
+            font-size: 15px;
+
+        }
+        button{
+            background-color: dodgerblue;
+            border: none;
+            padding: 15px;
+            width: 100%;
+            border-radius: 10px;
+            color: white;
+            font-size: 15px
+        }
+        button:hover{
+            background-color: deepskyblue;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <aside id="MenuOculto" class="MenuOculto">
+    <a href="javascript:void(0)" class="btnfechar" onclick="fecharNav()">&times;</a>
+    <a href="Cadastro.html">Cadastro de Produtos</a>
+    <a href="CadastroUsuário.html">Cadastro Pessoal</a>
+    <a href="SobreoAutor.html">Sobre O Autor</a>
+    <a href="layout.html">Nosso Produto</a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <a href="index.html">Sair</a>
+    </aside>
+    
+    <section id="principal">
+        <span style="font-size:30px;cursor:pointer" onclick="abrirNav()">&#9776</span>
+        <p>Menu</p>
+    </section>
+
+    <script type="text/javascript"  src="scripts.js"></script>
+</body>
+</html>
